@@ -14,8 +14,6 @@
   color: $text-clr;
 }
 
-@import 'common';
-
 .price-card {
   display: flex;
   flex-direction: column;
@@ -85,7 +83,6 @@
 
   &__price {
     margin-top: 33px;
-    padding: 19px auto;
     height: 105px;
     width: 100%;
     display: flex;
@@ -145,16 +142,4 @@
   }
 }
 
-.price-card:last-child {
-  margin-right: 0;
-  height: 773px;
-  margin-top: 3px;
-}
-
-.price-card:last-child .price-card__title {
-  margin-top: 36px;
-}
-
-.price-card:nth-of-type(2) .price-card__price {
-  margin-top: 36px;
-}
+@import 'common';

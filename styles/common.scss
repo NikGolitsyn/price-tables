@@ -1,14 +1,25 @@
 .price-card__order-btn_green,
 .price-card__price_green {
-  background-color: rgba(91, 177, 137, 1);
+  background-color: $green-theme-color;
 }
 
 .price-card__order-btn_blue,
 .price-card__price_blue {
-  background-color: rgba(58, 107, 165, 1);
+  background-color: $blue-theme-color;
 }
 
 .price-card__order-btn_orange,
 .price-card__price_orange {
-  background-color: rgba(236, 99, 42, 1);
+  background-color: $orange-theme-color;
+}
+
+.third-card-title,
+.second-card-price {
+  margin-top: 36px;
+}
+
+.third-card {
+  margin-right: 0;
+  height: 773px;
+  margin-top: 3px;
 }
