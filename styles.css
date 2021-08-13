@@ -140,18 +140,7 @@
 .price-card:last-child {
   margin-right: 0;
   height: 773px;
-}
-
-.price-card:last-child .price-card__list-item {
-  padding: 17px 0 15px;
-}
-
-.price-card:last-child .price-card__title {
-  margin-top: 36px;
-}
-
-.price-card:last-child .price-card__price {
-  margin-top: 32px;
+  margin-top: 3px;
 }
 
 /*# sourceMappingURL=styles.css.map */
