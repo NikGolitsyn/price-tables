@@ -139,6 +139,7 @@
 
 .price-card:last-child {
   margin-right: 0;
+  height: 773px;
 }
 
 .price-card:last-child .price-card__list-item {
