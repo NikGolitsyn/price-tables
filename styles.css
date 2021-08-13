@@ -143,4 +143,8 @@
   margin-top: 3px;
 }
 
+.price-card:last-child .price-card__title {
+  margin-top: 36px;
+}
+
 /*# sourceMappingURL=styles.css.map */
