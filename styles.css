@@ -57,7 +57,7 @@
   justify-content: center;
   height: 147px;
   width: 25px;
-  transform: rotate(-45.1deg);
+  transform: rotate(-45deg);
   align-items: center;
 }
 .price-card__badge-text {
@@ -151,6 +151,10 @@
 
 .price-card:last-child .price-card__title {
   margin-top: 36px;
+}
+
+.price-card:nth-of-type(2) .price-card__price {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
