@@ -109,11 +109,11 @@
   }
 
   &__list-item {
-    display: flex;
     font-weight: 300;
     font-size: 15px;
     height: 50px;
     line-height: 18px;
+    padding: 16px 0;
     width: 100%;
     align-items: center;
   }
@@ -141,6 +141,10 @@
 
 .price-card:last-child {
   margin-right: 0;
+}
+
+.price-card:last-child .price-card__list-item {
+  padding: 17px 0 15px;
 }
 
 .price-card:last-child .price-card__title {
