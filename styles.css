@@ -150,4 +150,8 @@
   margin-top: 36px;
 }
 
+.price-card:last-child .price-card__price {
+  margin-top: 32px;
+}
+
 /*# sourceMappingURL=styles.css.map */
