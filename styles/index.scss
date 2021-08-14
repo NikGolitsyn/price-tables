@@ -7,9 +7,7 @@
 .price-tables {
   font-family: 'Montserrat', sans-serif;
   background-color: $bg-tablet-clr;
-  width: 1440px;
-  height: 1000px;
-  margin: 0 auto;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
