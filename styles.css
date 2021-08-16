@@ -2,111 +2,93 @@
   box-sizing: border-box;
 }
 
-.price-tables {
-  font-family: "Montserrat", sans-serif;
-  background-color: #141b1c;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-
 .price-card {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
+  margin-right: 18px;
   width: 380px;
   height: 770px;
+  overflow: hidden;
+  align-items: center;
   flex-shrink: 0;
   background-color: #334247;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.09);
-  margin-right: 18px;
 }
 .price-card__badge {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: absolute;
+  display: flex;
   top: -18px;
   right: -18px;
   width: 122px;
   height: 123px;
+  align-items: center;
+  justify-content: center;
 }
 .price-card__badge-rec {
   position: absolute;
-  background-color: #dc3f45;
   display: flex;
-  justify-content: center;
-  height: 147px;
-  width: 25px;
   transform: rotate(-45deg);
+  width: 25px;
+  height: 147px;
   align-items: center;
+  justify-content: center;
+  background-color: #dc3f45;
 }
 .price-card__badge-text {
   display: inline-block;
   min-width: 75px;
   height: 17px;
+  transform: rotate(90deg);
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
-  transform: rotate(90deg);
 }
 .price-card__title {
+  margin: 0;
   margin-top: 33px;
   width: 100%;
-  height: 64px;
   text-align: center;
-}
-.price-card__title-header {
-  margin: 0;
-  font-size: 35px;
   line-height: 43px;
   font-weight: 700;
+  font-size: 35px;
 }
 .price-card__title-text {
   margin: 0;
-  font-size: 20px;
   line-height: 24px;
   font-weight: 300;
+  font-size: 20px;
 }
 .price-card__price {
-  margin-top: 33px;
-  height: 105px;
+  margin: 33px 0 0 0;
+  padding: 19px 0;
   width: 100%;
-  display: flex;
-}
-.price-card__price-text {
-  height: 67px;
-  font-size: 55px;
   line-height: 67px;
-  margin: auto;
-}
-.price-card__description {
+  font-size: 55px;
   text-align: center;
+}
+.price-card__info {
   display: inline-block;
+  margin: 40px 26px;
+  text-align: center;
+  line-height: 18px;
   font-weight: 300;
   font-size: 15px;
-  line-height: 18px;
-  margin: 40px 26px;
 }
 .price-card__options-list {
-  list-style-type: none;
-  width: 100%;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  width: 100%;
 }
 .price-card__list-item {
-  font-weight: 300;
-  font-size: 15px;
+  display: flex;
+  align-items: center;
   height: 50px;
   line-height: 18px;
-  padding: 16px 0;
-  width: 100%;
-  align-items: center;
+  font-weight: 300;
+  font-size: 15px;
 }
 .price-card__list-item:nth-of-type(odd) {
   background-color: rgba(42, 52, 56, 0.5);
@@ -119,11 +101,21 @@
   height: 40px;
   width: 154px;
   border: none;
+  text-transform: uppercase;
+  line-height: 17px;
   border-radius: 20px;
   font-size: 14px;
-  line-height: 17px;
   text-align: center;
-  text-transform: uppercase;
+  color: #fff;
+}
+
+.price-tables {
+  font-family: "Montserrat", sans-serif;
+  background-color: #141b1c;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
 }
 
@@ -142,8 +134,7 @@
   background-color: #ec632a;
 }
 
-.third-card-title,
-.second-card-price {
+.third-card-title {
   margin-top: 36px;
 }
 
@@ -151,6 +142,24 @@
   margin-right: 0;
   height: 773px;
   margin-top: 3px;
+}
+
+.li-icon {
+  display: inline-block;
+  height: 13px;
+  width: 59px;
+}
+
+.icon_green {
+  background: no-repeat 22px 50% url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+
+.icon_blue {
+  background: no-repeat 22px url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+
+.icon_orange {
+  background: no-repeat 22px url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 
 /*# sourceMappingURL=styles.css.map */

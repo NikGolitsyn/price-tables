@@ -3,6 +3,7 @@
 }
 
 @import 'variables';
+@import 'price-card';
 
 .price-tables {
   font-family: 'Montserrat', sans-serif;
@@ -14,132 +15,48 @@
   color: $text-clr;
 }
 
-.price-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  width: 380px;
-  height: 770px;
-  flex-shrink: 0;
-  background-color: $bg-card-clr;
-  box-shadow: $box-shadow-card;
-  margin-right: 18px;
-
-  &__badge {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: -18px;
-    right: -18px;
-    width: 122px;
-    height: 123px;
-  }
-
-  &__badge-rec {
-    position: absolute;
-    background-color: #dc3f45;
-    display: flex;
-    justify-content: center;
-    height: 147px;
-    width: 25px;
-    transform: rotate(-45deg);
-    align-items: center;
-  }
-
-  &__badge-text {
-    display: inline-block;
-    min-width: 75px;
-    height: 17px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    text-transform: uppercase;
-    transform: rotate(90deg);
-  }
-
-  &__title {
-    margin-top: 33px;
-    width: 100%;
-    height: 64px;
-    text-align: center;
-  }
-
-  &__title-header {
-    margin: 0;
-    font-size: 35px;
-    line-height: 43px;
-    font-weight: 700;
-  }
-
-  &__title-text {
-    margin: 0;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 300;
-  }
-
-  &__price {
-    margin-top: 33px;
-    height: 105px;
-    width: 100%;
-    display: flex;
-  }
-
-  &__price-text {
-    height: 67px;
-    font-size: 55px;
-    line-height: 67px;
-    margin: auto;
-  }
-
-  &__description {
-    text-align: center;
-    display: inline-block;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-    margin: 40px 26px;
-  }
-
-  &__options-list {
-    list-style-type: none;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  &__list-item {
-    font-weight: 300;
-    font-size: 15px;
-    height: 50px;
-    line-height: 18px;
-    padding: 16px 0;
-    width: 100%;
-    align-items: center;
-  }
-  &__list-item:nth-of-type(odd) {
-    background-color: $bg-odd-li;
-  }
-
-  &__img {
-    padding: 0 22px;
-  }
-
-  &__order-btn {
-    margin: 39px 0 40px;
-    height: 40px;
-    width: 154px;
-    border: none;
-    border-radius: 20px;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    text-transform: uppercase;
-    color: $text-clr;
-  }
+.price-card__order-btn_green,
+.price-card__price_green {
+  background-color: $green-theme-color;
 }
 
-@import 'common';
+.price-card__order-btn_blue,
+.price-card__price_blue {
+  background-color: $blue-theme-color;
+}
+
+.price-card__order-btn_orange,
+.price-card__price_orange {
+  background-color: $orange-theme-color;
+}
+
+.third-card-title {
+  margin-top: 36px;
+}
+
+.third-card {
+  margin-right: 0;
+  height: 773px;
+  margin-top: 3px;
+}
+
+.li-icon {
+  display: inline-block;
+  height: 13px;
+  width: 59px;
+}
+
+.icon_green {
+  background: no-repeat 22px 50%
+    url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+
+.icon_blue {
+  background: no-repeat 22px
+    url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+
+.icon_orange {
+  background: no-repeat 22px
+    url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
