@@ -6,12 +6,12 @@
 @import 'price-card';
 
 .price-tables {
-  font-family: 'Montserrat', sans-serif;
-  background-color: $bg-tablet-clr;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $bg-tablet-clr;
   color: $text-clr;
 }
 

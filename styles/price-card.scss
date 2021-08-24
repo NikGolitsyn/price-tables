@@ -2,34 +2,34 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-right: 18px;
   width: 380px;
   height: 770px;
-  overflow: hidden;
-  align-items: center;
   flex-shrink: 0;
+  overflow: hidden;
   background-color: $bg-card-clr;
   box-shadow: $box-shadow-card;
 
   &__badge {
     position: absolute;
     display: flex;
+    justify-content: center;
+    align-items: center;
     top: -18px;
     right: -18px;
     width: 122px;
     height: 123px;
-    align-items: center;
-    justify-content: center;
   }
 
   &__badge-rec {
     position: absolute;
     display: flex;
+    align-items: center;
+    justify-content: center;
     transform: rotate(-45deg);
     width: 25px;
     height: 147px;
-    align-items: center;
-    justify-content: center;
     background-color: #dc3f45;
   }
 
@@ -45,8 +45,7 @@
   }
 
   &__title {
-    margin: 0;
-    margin-top: 33px;
+    margin: 33px 0 0 0;
     width: 100%;
     text-align: center;
     line-height: 43px;
